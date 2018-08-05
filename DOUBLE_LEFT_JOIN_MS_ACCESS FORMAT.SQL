@@ -7,4 +7,4 @@ FROM (customers AS c
 	ON c.cellphone = p.cellphone) 
 
 LEFT JOIN repair_data AS r 
-ON c.cellphone = r.cellphone;
+ON c.cellphone = r.cellphone;  
